@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css"; // 确保样式文件存在
-import avatar from './avatar.png';
 
 const Index = () => (
     <div class="container">
