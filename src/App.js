@@ -11,8 +11,8 @@ function App() {
       <nav>
         <ul>
           <li><Link to="/">首页</Link></li>
-          <li><Link to="/">关于我</Link></li>  
-          <li><Link to="/">作品</Link></li>
+          <li><Link to="/about">关于我</Link></li>  
+          <li><Link to="/contact">作品</Link></li>
         </ul>
       </nav>
     </header>
