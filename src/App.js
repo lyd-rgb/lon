@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import Index from './pages/Index';
 import About from './pages/About';
 import ContactMe from './pages/ContactMe';
@@ -11,9 +10,9 @@ function App() {
     <header >
       <nav>
         <ul>
-          <li><a href="/">首页</a></li>
-          <li><a href="/about">关于我</a></li>      
-          <li><a href="/contact">作品</a></li>
+          <li><Link to="/">首页</Link></li>
+          <li><Link to="/">关于我</Link></li>  
+          <li><Link to="/">作品</Link></li>
         </ul>
       </nav>
     </header>
